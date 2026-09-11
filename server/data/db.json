@@ -1,0 +1,98 @@
+{
+  "users": [],
+  "courses": [
+    {
+      "id": 1,
+      "title": "Python для начинающих",
+      "students": 847,
+      "price": 9900,
+      "isAiGenerated": false,
+      "isLaunched": true,
+      "launchDate": "2026-09-11T22:05:30.899Z"
+    },
+    {
+      "id": 2,
+      "title": "JavaScript Modern",
+      "students": 456,
+      "price": 8900,
+      "isAiGenerated": true
+    },
+    {
+      "id": 1789164371168,
+      "title": "Школа психологии",
+      "description": "Сила жизни",
+      "price": 1000,
+      "students": 0,
+      "isAiGenerated": false,
+      "isLaunched": false
+    }
+  ],
+  "feed": [
+    {
+      "id": 1,
+      "author": "Елена Смирнова",
+      "avatar": "ЕС",
+      "text": "🎉 Только что завершила курс \"UX/UI Дизайн\"!",
+      "likes": 45,
+      "time": "2 часа назад"
+    },
+    {
+      "id": 2,
+      "author": "Михаил Петров",
+      "avatar": "МП",
+      "text": "Кто хочет вместе пройти курс \"AI & ML\"?",
+      "likes": 23,
+      "time": "5 часов назад"
+    }
+  ],
+  "shop": [
+    {
+      "id": 1,
+      "name": "Кастомный аватар",
+      "desc": "Уникальный дизайн профиля",
+      "price": 500,
+      "icon": "🎨"
+    },
+    {
+      "id": 2,
+      "name": "Premium курс",
+      "desc": "Доступ к эксклюзивному контенту",
+      "price": 2000,
+      "icon": "🎓"
+    },
+    {
+      "id": 3,
+      "name": "Редкий бейдж \"Легенда\"",
+      "desc": "Коллекционный achievement",
+      "price": 1500,
+      "icon": "🏆"
+    }
+  ],
+  "certificates": [],
+  "calendar": [
+    {
+      "id": 1,
+      "title": "Вебинар: Запуск онлайн-школы",
+      "date": "2024-09-15",
+      "time": "19:00",
+      "type": "webinar",
+      "color": "#d4af37"
+    },
+    {
+      "id": 2,
+      "title": "Дедлайн: Домашнее задание #3",
+      "date": "2024-09-18",
+      "time": "23:59",
+      "type": "deadline",
+      "color": "#f44336"
+    },
+    {
+      "id": 3,
+      "title": "Выплата партнёрских комиссий",
+      "date": "2024-09-20",
+      "time": "12:00",
+      "type": "payment",
+      "color": "#4caf50"
+    }
+  ]
+}

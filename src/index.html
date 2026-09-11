@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEXUS Academy</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="logo"><div class="logo-icon">N</div>NEXUS Academy</div>
+    <div class="user-info" id="userInfo">
+      <span id="headerUserName">Администратор</span>
+      <div class="user-avatar" id="headerUserAvatar">AD</div>
+    </div>
+  </header>
+
+  <nav class="nav" id="mainNav">
+    <div class="nav-item active" data-page="dashboard">📊 Дашборд</div>
+    <div class="nav-item" data-page="courses">📚 Курсы</div>
+    <div class="nav-item" data-page="launch-course">🚀 Запуск курса</div>
+    <div class="nav-item" data-page="launch-school"> Запуск школы</div>
+    <div class="nav-item" data-page="launch-funnel">🎯 Запуск воронки</div>
+    <div class="nav-item" data-page="my-schools">🏆 Мои школы</div>
+    <div class="nav-item" data-page="my-funnels">📈 Мои воронки</div>
+  </nav>
+
+  <main class="main" id="mainContent"></main>
+
+  <div class="toast" id="toast">
+    <div class="toast-icon" id="toastIcon">✅</div>
+    <div class="toast-text" id="toastText">Успешно!</div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

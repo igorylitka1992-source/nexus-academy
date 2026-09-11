@@ -1,0 +1,21 @@
+{
+  "name": "nexus-academy",
+  "version": "1.0.0",
+  "description": "NEXUS Academy - LMS Platform",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node server/server.js",
+    "build": "echo 'Building...'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "pdfkit": "^0.14.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
